@@ -130,7 +130,6 @@ export default function CarolinaClassicsLanding() {
           <p className="mx-auto mt-6 max-w-3xl text-lg font-semibold text-zinc-200 md:text-2xl">One show. Two states. One champion. Luxury, street culture, competition, live DJs, vendors, food trucks, awards, and the ultimate NC vs SC car show battle.</p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 md:flex-row">
-            <button onClick={() => openModal("ticket")} className="w-full rounded-2xl bg-white px-8 py-4 font-black uppercase tracking-wider text-black shadow-[0_0_35px_rgba(255,255,255,.25)] md:w-auto">Buy Tickets</button>
             <button onClick={() => openModal("car")} className="w-full rounded-2xl bg-gradient-to-r from-blue-600 to-red-600 px-8 py-4 font-black uppercase tracking-wider shadow-[0_0_35px_rgba(255,0,0,.35)] md:w-auto">Register Your Car</button>
             <button onClick={() => openModal("sponsor")} className="w-full rounded-2xl border border-yellow-400/70 px-8 py-4 font-black uppercase tracking-wider text-yellow-300 md:w-auto">Sponsor Now</button>
             <button onClick={() => openModal("vendor")} className="w-full rounded-2xl border border-white/20 px-8 py-4 font-black uppercase tracking-wider md:w-auto">Become a Vendor</button>
@@ -235,10 +234,9 @@ export default function CarolinaClassicsLanding() {
                   <div className="mt-2 text-5xl font-black">{ticket.price}</div>
                 </div>
                 <div className="p-6">
-                  <ul className="mb-6 space-y-3 text-zinc-200">
+                  <ul className="space-y-3 text-zinc-200">
                     {ticket.perks.map((perk) => <li key={perk}>- {perk}</li>)}
                   </ul>
-                  <button onClick={() => openModal("ticket", { ticket_type: ticket.name })} className="w-full rounded-2xl bg-gradient-to-r from-blue-600 to-red-600 px-6 py-4 font-black uppercase tracking-wide shadow-[0_0_35px_rgba(255,0,0,.25)]">Buy Now</button>
                 </div>
               </div>
             ))}
