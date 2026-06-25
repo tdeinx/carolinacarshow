@@ -16,7 +16,7 @@ create table if not exists public.tickets (
   buyer_name text not null,
   email text not null,
   phone text,
-  ticket_type text not null check (ticket_type in ('General Admission', 'VIP Access', 'VIP Table')),
+  ticket_type text not null check (ticket_type in ('General Admission', 'VIP Admission')),
   quantity integer not null default 1 check (quantity > 0),
   total_amount numeric(10,2) not null default 0,
   payment_status text not null default 'pending' check (payment_status in ('pending', 'paid', 'failed', 'refunded')),

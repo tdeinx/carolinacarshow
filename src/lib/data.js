@@ -17,8 +17,8 @@ import {
 export const eventInfo = {
   date: "Saturday, Oct 17, 2026",
   time: "Doors open 11AM - 9PM",
-  venue: "The Park Expo & Conference Center",
-  address: "800 Briar Creek Road, Charlotte, NC",
+  venue: "9205 E Independence Blvd",
+  address: "Matthews, NC 28105",
   phone: "704.449.5212",
   email: "contact@CarolinaClassicsCarshow.com",
 };
@@ -113,27 +113,19 @@ export const tickerSponsors = [
 export const ticketOptions = [
   {
     name: "General Admission",
-    price: "$25",
-    amount: 25,
+    price: "$10",
+    amount: 10,
     envKey: "VITE_STRIPE_GENERAL_ADMISSION_URL",
     perks: ["Event access", "Live DJs", "Vendor village", "Car competition viewing"],
     glow: "from-zinc-700 to-zinc-400",
   },
   {
-    name: "VIP Access",
-    price: "$75",
-    amount: 75,
+    name: "VIP Admission",
+    price: "$50",
+    amount: 50,
     envKey: "VITE_STRIPE_VIP_ACCESS_URL",
     perks: ["VIP lounge", "Fast entry", "Premium viewing area", "VIP badge & swag"],
     glow: "from-yellow-500 to-amber-200",
-  },
-  {
-    name: "VIP Table",
-    price: "$500",
-    amount: 500,
-    envKey: "VITE_STRIPE_VIP_TABLE_URL",
-    perks: ["Reserved seating", "Bottle service area", "VIP parking", "Entry for 6 guests"],
-    glow: "from-blue-500 to-red-500",
   },
 ];
 

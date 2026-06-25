@@ -117,13 +117,11 @@ export default function CarolinaClassicsLanding() {
             </div>
           </motion.div>
 
-          <div className="mb-4 text-sm font-black uppercase tracking-[.55em] text-zinc-300 md:text-lg">1st Annual</div>
-          <div className="mb-2 grid items-center gap-4 md:grid-cols-[1fr_auto_1fr]">
-            <div className="text-7xl font-black italic text-blue-500 drop-shadow-[0_0_25px_rgba(0,100,255,.9)] md:text-9xl">NC</div>
-            <div className="rotate-[-6deg] text-5xl font-black text-white md:text-7xl">VS</div>
-            <div className="text-7xl font-black italic text-red-500 drop-shadow-[0_0_25px_rgba(255,0,0,.9)] md:text-9xl">SC</div>
-          </div>
-          <h1 className="bg-gradient-to-b from-white via-zinc-200 to-zinc-600 bg-clip-text text-5xl font-black uppercase tracking-tight text-transparent drop-shadow-2xl md:text-8xl">Carolina Classics</h1>
+          <img
+            src="/brand/carolina-classics-logo.png"
+            alt="1st Annual NC vs SC Carolina Classics"
+            className="mx-auto w-full max-w-[22rem] drop-shadow-[0_0_34px_rgba(255,255,255,.28)] md:max-w-[34rem]"
+          />
           <p className="mt-3 bg-gradient-to-r from-blue-400 via-white to-red-500 bg-clip-text text-2xl font-black italic text-transparent md:text-5xl">King of the Carolinas</p>
           <p className="mx-auto mt-6 max-w-3xl text-lg font-semibold text-zinc-200 md:text-2xl">One show. Two states. One champion. Luxury, street culture, competition, live DJs, vendors, food trucks, awards, and the ultimate NC vs SC car show battle.</p>
 
@@ -225,7 +223,7 @@ export default function CarolinaClassicsLanding() {
             <h2 className="premium-heading mt-3 text-4xl font-black uppercase md:text-6xl">Pull Up To The Battle</h2>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
             {ticketOptions.map((ticket) => (
               <div key={ticket.name} className="overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-950 shadow-[0_0_45px_rgba(255,255,255,.05)]">
                 <div className={`bg-gradient-to-r ${ticket.glow} p-6 text-black`}>
