@@ -1,0 +1,21 @@
+{
+  "name": "Carolina Classics NC vs SC Car Show",
+  "short_name": "Carolina Classics",
+  "description": "Carolina Classics NC vs SC Car Show in Matthews, NC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050507",
+  "theme_color": "#050507",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
