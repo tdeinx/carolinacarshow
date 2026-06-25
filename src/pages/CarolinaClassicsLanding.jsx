@@ -118,9 +118,9 @@ export default function CarolinaClassicsLanding() {
           </motion.div>
 
           <img
-            src="/brand/carolina-classics-logo.png"
+            src="/brand/carolina-classics-logo-transparent.png"
             alt="1st Annual NC vs SC Carolina Classics"
-            className="mx-auto w-full max-w-[22rem] drop-shadow-[0_0_34px_rgba(255,255,255,.28)] md:max-w-[34rem]"
+            className="mx-auto w-full max-w-[22rem] drop-shadow-[0_0_34px_rgba(255,255,255,.28)] [filter:drop-shadow(0_0_28px_rgba(0,109,255,.22))_drop-shadow(0_0_30px_rgba(255,31,61,.18))_drop-shadow(0_16px_34px_rgba(0,0,0,.72))] md:max-w-[34rem]"
           />
           <p className="mt-3 bg-gradient-to-r from-blue-400 via-white to-red-500 bg-clip-text text-2xl font-black italic text-transparent md:text-5xl">King of the Carolinas</p>
           <p className="mx-auto mt-6 max-w-3xl text-lg font-semibold text-zinc-200 md:text-2xl">One show. Two states. One champion. Luxury, street culture, competition, live DJs, vendors, food trucks, awards, and the ultimate NC vs SC car show battle.</p>
