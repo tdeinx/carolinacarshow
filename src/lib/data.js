@@ -76,28 +76,30 @@ export const features = [
 ];
 
 export const sponsorLogos = [
+  "Harley-Davidson",
+  "Tesla",
   "Diamond Sponsor",
   "Platinum Sponsor",
   "Gold Sponsor",
   "Silver Sponsor",
   "Food Truck Partner",
   "Media Partner",
-  "Auto Club Partner",
-  "Community Partner",
 ];
 
 export const heroSponsors = [
+  "Harley-Davidson",
+  "Tesla",
   "Porsche Charlotte",
   "Freedom Auto",
   "Detail Kings",
   "Carolina Wraps",
   "Queen City Customs",
   "Street Society",
-  "Luxury Wheel Co.",
-  "Elite Tint",
 ];
 
 export const tickerSponsors = [
+  "Harley-Davidson",
+  "Tesla",
   "Diamond Sponsor Available",
   "Porsche Charlotte",
   "Carolina Wraps",

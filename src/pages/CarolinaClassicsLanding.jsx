@@ -40,8 +40,12 @@ export default function CarolinaClassicsLanding() {
     <main className="min-h-screen overflow-hidden bg-black text-white">
       <nav className="fixed left-0 right-0 top-0 z-40 border-b border-white/10 bg-black/65 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
-          <a href="#top" className="font-black uppercase tracking-[0.25em] text-white">
-            <span className="text-blue-400">NC</span> Classics <span className="text-red-400">SC</span>
+          <a href="#top" className="inline-flex items-center" aria-label="Carolina Classics home">
+            <img
+              src="/brand/carolina-classics-logo-transparent.png"
+              alt="Carolina Classics"
+              className="h-12 w-auto max-w-[8.5rem] object-contain [filter:drop-shadow(0_0_14px_rgba(255,255,255,.22))_drop-shadow(0_0_16px_rgba(0,109,255,.18))_drop-shadow(0_0_16px_rgba(255,31,61,.14))]"
+            />
           </a>
           <div className="hidden items-center gap-5 text-xs font-black uppercase tracking-wider text-zinc-300 md:flex">
             <a href="#tickets" className="hover:text-white">Tickets</a>
